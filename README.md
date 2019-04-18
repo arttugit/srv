@@ -1,0 +1,2 @@
+# srv
+Repository for salt
