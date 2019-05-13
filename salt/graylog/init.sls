@@ -2,7 +2,7 @@ install-graylog-repo:
   cmd.run:
     - name: wget https://packages.graylog2.org/repo/packages/graylog-3.0-repository_latest.deb
 
-update-repo:
+update-repos:
   cmd.run:
     - name: sudo dpkg -i graylog-3.0-repository_latest.deb
 
